@@ -1,3 +1,4 @@
+```php
 <?php
 /* */
 $g_connect_new = false ;
@@ -9,3 +10,5 @@ $g_upload="uploadfile";
 For the TCP connections: socket_create(AF_INET, SOCK_STREAM, SOL_TCP);In case you're having problems in socket_connect() with socket_strerror() = "Permission denied", you may be having a SELinux config issue.
 Check if SELinux is enabled:# /usr/sbin/sestatus -vIn case it is, you can just type the command:# setsebool httpd_can_network_connect=1
 */
+```
+  
